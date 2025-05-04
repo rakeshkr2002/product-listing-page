@@ -12,15 +12,15 @@ const NavHome = () => {
     <nav>
       <div className="TopNav">
         <div className="TopNavl">
-          <img src="/src/assets/lorem.svg" alt="" />
+         
           <h1>Lorem ipsum dolor</h1>
         </div>
         <div className="TopNavl">
-          <img src="/src/assets/lorem.svg" alt="" />
+          
           <h1>Lorem ipsum dolor</h1>
         </div>
         <div className="TopNavl">
-          <img src="/src/assets/lorem.svg" alt="" />
+          
           <h1>Lorem ipsum dolor</h1>
         </div>
       </div>
