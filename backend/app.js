@@ -21,14 +21,11 @@ const limiter = rateLimit({
 
 app.use(limiter)
 app.use(cors({
-    origin: `${process.env.Frontend_URL}`,
+    origin: process.env.Frontend_URL, 
     methods: ["GET", "POST", "PUT", "DELETE"],
-    headers: {
-        "Access-Control-Allow-Origin": "https://product-listing-page-9ymn.vercel.app", 
-        "Access-Control-Allow-Credentials": true 
-    },
-}))
-
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
+}));
 
 app.use(express.json())
 app.use("/api/v1/auth",authRouter)
