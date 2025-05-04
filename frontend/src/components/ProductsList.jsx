@@ -63,7 +63,7 @@ const ProductsList = () => {
             >
               <option value="">All Categories</option>
               <option value="men's clothing">Men</option>
-              <option value="women">Women</option>
+              <option value="women's clothing">Women</option>
               <option value="electronics">Electronics</option>
               <option value="jewelery">Jewelry</option>
             </select>
