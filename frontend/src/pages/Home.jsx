@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "../css/Home.css"
-import NavHome from '../components/navHome'
+import NavHome from '../components/NavHome'
 import NavMain from '../components/NavMain'
 import Footer from '../components/Footer'
 import ProductsList from '../components/ProductsList'
