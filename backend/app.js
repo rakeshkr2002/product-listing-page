@@ -20,7 +20,14 @@ const limiter = rateLimit({
 
 
 app.use(limiter)
-app.use(cors())
+app.use(cors({
+    origin: `${process.env.Frontend_URL}`,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    headers: {
+        "Access-Control-Allow-Origin": "https://slug-panel.onrender.com", // incorrect
+        "Access-Control-Allow-Credentials": true // incorrect
+    },
+}))
 
 
 app.use(express.json())
