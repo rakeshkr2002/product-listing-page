@@ -24,8 +24,8 @@ app.use(cors({
     origin: `${process.env.Frontend_URL}`,
     methods: ["GET", "POST", "PUT", "DELETE"],
     headers: {
-        "Access-Control-Allow-Origin": "https://slug-panel.onrender.com", // incorrect
-        "Access-Control-Allow-Credentials": true // incorrect
+        "Access-Control-Allow-Origin": "https://product-listing-page-yvf5.vercel.app", 
+        "Access-Control-Allow-Credentials": true 
     },
 }))
 
