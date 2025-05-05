@@ -241,11 +241,7 @@
 
 /* Mobile Styles for NavMain */
 @media (max-width: 768px) {
-  .midNav{
-    background-color: yellow;
-    /* max-width: 80%; */
-   
-  }
+ 
  .nav-icons{
   flex-wrap: wrap;
  }
